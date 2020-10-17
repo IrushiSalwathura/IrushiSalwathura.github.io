@@ -1,0 +1,143 @@
+/** {
+    padding: 0px;
+    margin: 0px;
+    font-family: consolas;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+p {
+    color: white;
+    text-shadow: 0px 0px 50px rgb(150, 150, 150);
+}*/
+/*
+button:focus {
+    outline: none;
+}
+*/
+
+.containerBtn {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+/*.shareBtn {
+    width: 320px;
+    height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 0px;
+    margin: 0px;
+    font-family: consolas;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 4px;
+}*/
+/* BUTTON TWO */
+#shareBtn {
+    color: #4F9DA6;
+    background-color: transparent;
+    border: 2px solid #4F9DA6;
+    border-radius: 100px;
+
+    width: 300px;
+    height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+#shareBtn1 {
+    color: #4F9DA6;
+    background-color: transparent;
+    border: 2px solid #4F9DA6;
+    border-radius: 100px;
+
+    width: 300px;
+    height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+@keyframes shareMe {
+    from {
+    }
+    to {
+        background-color: #4F9DA6;
+        color: #393737;
+    }
+}
+@keyframes plane {
+    from {
+    }
+    to {
+        color: #e5e5e5;
+        transform: translatex(20px);
+    }
+}
+@keyframes plane1 {
+    from {
+    }
+    to {
+        color: #e5e5e5;
+        transform: translatex(20px);
+    }
+}
+#shareBtn:hover {
+    animation: shareMe 0.5s forwards;
+}
+#shareBtn:hover > #plane {
+    animation: plane 1s forwards;
+}
+#shareBtn1:hover {
+    animation: shareMe 0.5s forwards;
+}
+#shareBtn1:hover > #plane1 {
+    animation: plane 1s forwards;
+}
+
+@media (min-width:280px) {
+    #shareBtn1 {
+        width: 200px;
+        font-size: 10px;
+    }
+}
+@media (min-width:360px) {
+    #shareBtn1 {
+        width: 250px;
+        font-size: 15px;
+    }
+}
+@media (min-width:370px) {
+    #shareBtn1 {
+        width: 350px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:280px) {
+    #shareBtn {
+        width: 200px;
+        font-size: 10px;
+    }
+}
+@media (min-width:360px) {
+    #shareBtn {
+        width: 250px;
+        font-size: 15px;
+    }
+}

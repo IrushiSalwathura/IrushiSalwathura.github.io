@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+/*
+html {
+    background: rgb(41, 41, 41);
+    background: -moz-linear-gradient(
+            180deg,
+            rgba(41, 41, 41, 1) 0%,
+            rgba(24, 30, 48, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+            180deg,
+            rgba(41, 41, 41, 1) 0%,
+            rgba(24, 30, 48, 1) 100%
+    );
+    background: linear-gradient(
+            180deg,
+            rgba(41, 41, 41, 1) 0%,
+            rgba(24, 30, 48, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#181e30",GradientType=1);
+    height: 100%;
+    width: 100%;
+}
+*/
+/*
+div {
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+}*/
+
+/*p,
+a {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2rem;
+    color: #eee;
+}*/
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 1rem;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.social-media li {
+    padding: 1rem;
+}
+
+.fab {
+    font-size: 2rem;
+}
+
+/* transition for social icon hover animation */
+.fa-instagram,
+.fa-github,
+.fa-linkedin {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+    color: #0077B5;
+    transform: scale(1.1);
+}
+
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+    color: #bd22a2;
+    transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+    color: #000;
+    transform: scale(1.1);
+}
+
+
+
+
